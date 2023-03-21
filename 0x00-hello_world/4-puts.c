@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #include <stdio.h>
 /**
  * main - Prints a message to the console
