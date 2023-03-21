@@ -7,7 +7,6 @@
  */
 int main()
 {
-	char ch = _putchar
 	putchar(_putchar);
 	putchar('\n');
 	return 0;
