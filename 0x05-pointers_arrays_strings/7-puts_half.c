@@ -7,11 +7,14 @@
 
 void puts_half(char *str)
 {
-	int string; n; o;
-	o = 0
+	int string;
+	int n;
+	int o;
+	o = 0;
 
         for (string = 0; str[string] != '\0'; string++)
 		o++;
+
 	n = (o / 2);
 
 	if ((o % 2) == 1)
