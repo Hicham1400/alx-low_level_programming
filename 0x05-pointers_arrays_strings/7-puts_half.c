@@ -2,20 +2,20 @@
 /**
  * puts_half: prints the half of a string
  * str: char to check
- * Return: 0 is  success
+ * Return: the half of the input
  */
 
 void puts_half(char *str)
 {
-	int string = 0, n;
+	int string; n; o;
+	o = 0
 
-	while (str[string] != '\0')
-		string++;
-	if (string + 1 % 2 != '0')
-		n = (string - 1) / 2;
-	else
-		n = (string / 2);
-	n++;
+        for (string = 0; str[string] != '\0'; string++)
+		o++;
+	n = (o / 2);
+
+	if ((o % 2) == 1)
+		n = ((o + 1) / 2);
 
 	for (string = n; str[string] != 0; string++)
 		_putchar(str[string]);
